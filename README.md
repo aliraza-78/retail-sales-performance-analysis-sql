@@ -1,49 +1,104 @@
-# Retail Sales Performance Analysis using SQL
+Retail Sales Performance Analysis using SQL
+Project Overview
 
-## Project Overview
-This project analyzes retail sales data using SQL to uncover insights related to sales performance, customer behavior, and product profitability.
+This project analyzes retail sales data using SQL to answer real-world business questions related to sales performance, customer behavior, and product profitability.
 
-The goal of this project is to simulate real-world business questions that a data analyst would solve using SQL.
+The goal of this project is to demonstrate practical SQL skills that a data analyst would use in a real business environment, including data modeling, querying, and deriving insights.
 
-## Database Schema
-The database is designed using a normalized retail structure and consists of the following tables:
-- Customers
-- Orders
-- Order_Items
-- Products
+Database Schema
 
-Each table is connected using primary and foreign keys to support accurate analysis.
+The database follows a normalized retail structure consisting of four main tables:
 
-## Key Business Questions
+Customers – customer details and demographics
 
-### Easy
-- How many total customers and orders are there?
-- What is the total sales revenue and total profit?
-- What is total sales by product category?
+Orders – order-level information
 
-### Moderate
-- Who are the top customers and products by total sales?
-- What is the monthly sales trend?
-- What is the Average Order Value (AOV)?
-- Which cities generate the highest total sales?
+Order_Items – product-level sales details per order
 
-### Advanced
-- Which customers have stopped purchasing (inactive customers)?
-- Which months have sales below the overall monthly average?
-- Which products have profit margins below the average?
-- How do products rank within each category by sales?
-- Which orders have total sales above the average order value?
+Products – product and category information
 
-## Tools Used
-- MySQL
-- MySQL Workbench
-- GitHub
+Project Structure
+retail-sales-performance-analysis-sql/
+│
+├── schema/
+│   └── schema.sql                # Database schema definition
+│
+├── data/
+│   └── sample_data.sql           # Sample data (for testing & demo)
+│
+├── queries/
+│   ├── easy.sql                  # Basic SQL queries
+│   ├── moderate.sql              # Intermediate SQL queries
+│   └── advanced.sql              # Advanced SQL queries
+│
+├── insights/
+│   └── insights.md               # Business insights & findings
+│
+├── assets/
+│   └── database_schema.png       # Schema diagram
+│
+└── README.md
 
-## How to Use This Project
-1. Run the SQL script in the `schema` folder to create tables.
-2. Insert data using the SQL file in the `data` folder.
-3. Execute queries from the `queries` folder.
-4. Review insights in the `insights` folder.
+Key Business Questions
+Easy
 
-## Author
-Aliraza
+How many customers and orders are there?
+
+What is the total revenue generated?
+
+Which products have the highest sales?
+
+Moderate
+
+What is the average order value?
+
+Which customers contribute the most revenue?
+
+Sales performance by category and region
+
+Advanced
+
+Which orders exceed the average order value?
+
+What percentage of revenue comes from the top 20% of customers?
+
+Customer segmentation based on purchasing behavior
+
+Skills Demonstrated
+
+SQL Joins (INNER, LEFT)
+
+Aggregations & Group By
+
+Subqueries
+
+Business-focused analysis
+
+Database schema design
+
+Query organization and documentation
+
+Tools Used
+
+SQL (MySQL / PostgreSQL compatible syntax)
+
+Git & GitHub for version control
+
+Draw.io (or similar) for schema design
+
+How to Use This Project
+
+Create the database using schema/schema.sql
+
+Insert sample data using data/sample_data.sql
+
+Run queries from the queries/ folder
+
+Review insights in insights/insights.md
+
+Author
+
+Aliraza Ansari
+Aspiring Data Analyst | SQL | Data Analysis
+
+📌 GitHub: https://github.com/aliraza-78
