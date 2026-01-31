@@ -1,104 +1,100 @@
-Retail Sales Performance Analysis using SQL
-Project Overview
+# Retail Sales Performance Analysis using SQL
+
+## Project Overview
 
 This project analyzes retail sales data using SQL to answer real-world business questions related to sales performance, customer behavior, and product profitability.
 
-The goal of this project is to demonstrate practical SQL skills that a data analyst would use in a real business environment, including data modeling, querying, and deriving insights.
+The objective is to demonstrate practical SQL skills commonly used by data analysts, including data modeling, querying, and insight generation.
 
-Database Schema
+---
 
-The database follows a normalized retail structure consisting of four main tables:
+## Database Schema
 
-Customers – customer details and demographics
+The database follows a normalized retail structure with four core tables:
 
-Orders – order-level information
+- **Customers** – customer details and demographics  
+- **Orders** – order-level information  
+- **Order_Items** – product-level sales details per order  
+- **Products** – product and category information  
 
-Order_Items – product-level sales details per order
+![Database Schema](assets/database_schema.png)
 
-Products – product and category information
+---
 
-Project Structure
+## Project Structure
+
 retail-sales-performance-analysis-sql/
 │
 ├── schema/
-│   └── schema.sql                # Database schema definition
+│ └── schema.sql # Database schema definition
 │
 ├── data/
-│   └── sample_data.sql           # Sample data (for testing & demo)
+│ └── sample_data.sql # Sample data for testing
 │
 ├── queries/
-│   ├── easy.sql                  # Basic SQL queries
-│   ├── moderate.sql              # Intermediate SQL queries
-│   └── advanced.sql              # Advanced SQL queries
+│ ├── easy.sql # Basic SQL queries
+│ ├── moderate.sql # Intermediate SQL queries
+│ └── advanced.sql # Advanced SQL queries
 │
 ├── insights/
-│   └── insights.md               # Business insights & findings
+│ └── insights.md # Business insights & findings
 │
 ├── assets/
-│   └── database_schema.png       # Schema diagram
+│ └── database_schema.png # Schema diagram
 │
 └── README.md
 
-Key Business Questions
-Easy
 
-How many customers and orders are there?
+---
 
-What is the total revenue generated?
+## Key Business Questions
 
-Which products have the highest sales?
+### Easy
+- How many customers and orders are there?
+- What is the total revenue generated?
+- Which products have the highest sales?
 
-Moderate
+### Moderate
+- What is the average order value?
+- Which customers contribute the most revenue?
+- Sales performance by category and region
 
-What is the average order value?
+### Advanced
+- Which orders exceed the average order value?
+- What percentage of revenue comes from the top 20% of customers?
+- Customer segmentation based on purchasing behavior
 
-Which customers contribute the most revenue?
+---
 
-Sales performance by category and region
+## Skills Demonstrated
 
-Advanced
+- SQL joins (INNER, LEFT)
+- Aggregations and grouping
+- Subqueries
+- Business-focused analysis
+- Database schema design
 
-Which orders exceed the average order value?
+---
 
-What percentage of revenue comes from the top 20% of customers?
+## Tools Used
 
-Customer segmentation based on purchasing behavior
+- SQL (MySQL / PostgreSQL compatible)
+- Git & GitHub
 
-Skills Demonstrated
+---
 
-SQL Joins (INNER, LEFT)
+## How to Use This Project
 
-Aggregations & Group By
+1. Create the database using `schema/schema.sql`
+2. Insert sample data using `data/sample_data.sql`
+3. Run queries from the `queries/` folder
+4. Review insights in `insights/insights.md`
 
-Subqueries
+---
 
-Business-focused analysis
+## Author
 
-Database schema design
+**Aliraja Ansari**  
+Aspiring Data Analyst | SQL | Data Analysis  
 
-Query organization and documentation
-
-Tools Used
-
-SQL (MySQL / PostgreSQL compatible syntax)
-
-Git & GitHub for version control
-
-Draw.io (or similar) for schema design
-
-How to Use This Project
-
-Create the database using schema/schema.sql
-
-Insert sample data using data/sample_data.sql
-
-Run queries from the queries/ folder
-
-Review insights in insights/insights.md
-
-Author
-
-Aliraza Ansari
-Aspiring Data Analyst | SQL | Data Analysis
-
-📌 GitHub: https://github.com/aliraza-78
+GitHub: https://github.com/aliraza-78
