@@ -1,0 +1,2 @@
+-- Sample data for Retail Sales Performance Analysis
+-- INSERT statements will be added here
