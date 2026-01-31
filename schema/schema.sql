@@ -1,0 +1,2 @@
+-- Database schema for Retail Sales Performance Analysis
+-- This file contains table definitions for the project
